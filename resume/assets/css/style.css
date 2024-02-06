@@ -1,0 +1,63 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-image: url(../image/mountain.jpeg);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.upper {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    font-size: smaller;
+}
+
+.down {
+    text-align: center;
+    font-size: medium;
+}
+
+h1, p, a {
+    margin: 0px 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 30px;
+    color: aliceblue;
+}
+
+.image img {
+    margin: 100px auto 0px auto;
+    width: 120px;
+    height: 100px;
+    border-radius: 1000px;
+    border-style: groove;
+}
+
+input {
+    background-color: rgb(160, 160, 160);
+    padding: 7px 15px;
+    border-style: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
