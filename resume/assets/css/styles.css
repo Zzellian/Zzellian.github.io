@@ -11,6 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
+    font-family: Lucida Sans Unicode;
 }
 
  #div-page-name {
@@ -31,15 +32,15 @@ nav {
 
 #hero-section {
     background-color: rgb(105, 143, 143);
-    background-image: url("../images/bg-image.jpg");
+    background-image: url("../images/mountain.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 40%;
-
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Lucida Sans Unicode;
 }
 
 #div-user-info {
