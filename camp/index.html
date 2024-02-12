@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Cite</title>
+
+    <style>
+
+        body, html{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav {
+            background-color: forestgreen;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            font-family: 'Gill Sans', Gill Sans MT, 'Calibri', 'Trebuchet MS', sans-serif;
+        }    
+
+        nav div a {
+            color: aquamarine;
+        }
+
+        #nav-leftside {
+            width: 75%;
+            padding-left: 20px;
+        }
+
+        #nav-rightside {
+            width: 25%;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        #words {
+            height: 400px;
+            background-color: rgb(235, 194, 141);
+            padding-top: 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: brown;
+            font-family: Franklin Gothic Medium, 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+        }
+
+        #words p {
+            background-color: rgb(110, 202, 175, .3);
+            padding: 25px;
+        }
+
+        #tent, #bags, #sleeping, #wear-sec, #bottle {
+            margin-top: 10px;
+            background-color: beige;
+            padding: 20px;
+            width: 100%;
+            height: 300px;
+        }
+        
+        .div-tent, .div-title, .wear-title {
+            padding: 10px;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .bags-item, .sleeping-bags, .div-wear, .div-bottle {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #lower-material {
+            background-color: darksalmon;
+            display: flex;
+            height: 300px;
+            text-align: center;
+            justify-content: space-evenly;
+
+        }
+
+        .category {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div id="nav-leftside">
+            <a href="">Menu</a>
+            <a href="">Logo</a>
+        </div>
+        <div id="nav-rightside">
+            <a href="">Account</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="words">
+            <!-- camp cite photo the background image for this section -->
+            <p>Without the intense touch of nature, you can never fully freshen yourself! 
+                <br>Go for a camping and there both your weary mind and your exhausted body will rise like a morning sun!</p>
+        </section>
+
+        <section id="tent">
+            <div class="div-tent">
+                <a href="">TENT</a>
+            </div>
+            <div class="div-tent">
+                <div>Dome Tent</div>
+                <div>A-Frame Tent</div>
+                <div>Multi-Room Tent</div>
+            </div>
+            <div class="div-tent">
+                <div>Backpacking Tent</div>
+                <div>Geodesic and Semi-Geodesic Tent</div>
+                <div>Pop-up Tent</div>
+            </div>
+            <div class="div-tent">
+                <div>Tunnel Tent</div>
+                <div>Inflatable Tent</div>
+                <div>Teepee Tent</div>
+            </div>
+        </section>
+
+        <section id="bags">
+            <div class="div-title">
+                <a href="">BACKPACK / RUCKSACK</a>
+            </div>
+
+            <div class="bags-item">
+                <div class="div-bags">
+                    <a href="">Bags</a>
+                </div>
+                <div class="div-bags">
+                    <a href="">Bags</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sleeping">
+
+            <div class="sleeping-bags">
+                <div>
+                    <a href="">Sleeping Bag</a>
+                </div>
+                <div>
+                    <a href="">Sleeping Pad</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="wear-sec">
+            <div class="wear-title">
+                <a href="">WEAR</a>
+            </div>
+            <div class="div-wear">
+                <a href="">Clothes</a>
+                <a href="">Footwear / Hiking Shoes</a>
+                <a href="">Sungglasses</a>
+                <a href="">Rain Coat</a>
+            </div>
+        </section>
+
+        <section id="bottle">
+                <div class="div-bottle">
+                    <a href="">BOTTLE</a>
+                
+                    <a href="">MUGS</a>
+                
+                    <a href="">CUPS</a>
+                </div>
+        </section>
+
+        <section id="lower-material">
+            
+            <div class="category">
+                <a href="">FURNITURE</a>
+                <a href="">Camping Table</a>
+                <a href="">Camping Chairs</a>
+                <a href="">Storage Stands</a>
+                <a href="">Hammock</a>
+            </div>
+
+            <div class="category">
+                <a href="">KITCHENWARE</a>
+                <a href="">Stove</a>
+                <a href="">Cookware</a>
+                <a href="">Utensils</a>
+                <a href="">Kettle</a>
+                <a href="">Container</a>
+                <a href="">Coolbox</a>
+            </div>
+
+            <div class="category">
+                <a href="">EQUIPMENTS</a>
+                <a href="">Flaslights</a>
+                <a href="">Lanterns</a>
+                <a href="">First Aid Kit</a>
+                <a href="">Bottle Opener</a>
+            </div>
+
+            <div class="category">
+                <a href="">REPAIR KIT / TOOL KIT</a>
+                <a href="">Multi-Tool / Knife</a>
+                <a href="">P-Cord</a>
+                <a href="">Hooks</a>
+                <a href="">Webbing Straps</a>
+                <a href="">Duct Tape</a>
+                <a href="">Side-Release Buckles</a>
+                <a href="">Zip Ties</a>
+                <a href="">Batteries</a>
+                <a href="">Stove Repair Kit</a>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
