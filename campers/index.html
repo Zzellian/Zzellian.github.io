@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campers Site</title>
+    <style>
+        body, html {
+            margin: 0px;
+            padding: 0px;
+            background-color: darkgray;
+            height: 100%;
+        }
+
+        nav {
+            background-color: rgb(199, 228, 228);
+            height: 80px;
+            width: 100%;
+            position: fixed;   
+            display: flex;     
+            align-items: center; 
+            margin-top: -90px;
+        }
+
+        #left-side, #right-side {
+            background-color: rgb(210, 255, 255);
+            background-size: cover;
+            height: 70px;
+            border-radius: 10%;
+            
+        }
+
+        #left-side {
+            width: 20%;
+        }
+
+        #right-side {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+        }
+
+        #left-side a img {
+            height: 60px;
+            width: 60px;
+            margin: 5px 5px 5px 10px;
+        }
+
+        #right-side a {
+            background-color: cadetblue;
+            height: 50px;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20% 20%;
+            color: ivory;
+        }
+        
+        main {
+            background-color: azure;
+            height: 100%;
+            width: 1024px;
+            margin: auto;
+        }
+
+        section {
+            background-color: blanchedalmond;
+            background-image: url(assets/image/camp.jpg);
+            background-size: 100%;
+            height: 300px;
+            width: 1024px;
+            margin-top: 90px;
+        }
+  
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="left-side">
+            <a href="">
+                <img src="assets/image/logo.png" alt="logo">
+            </a>
+        </div>
+        <div id="right-side">
+            <a href="">ABOUT</a>
+            <a href="">PRODUCTS</a>
+            <a href="">CONTACT US</a>
+        </div>
+    </nav>
+    
+    <main>
+        <section>
+            <h4>CAMPING RULES</h4>
+            <p>NAP OFTEN</p>
+            <p>WATCH THE SUNSET</p>
+            <p>WAKE UP SMILING</p>
+            <p>SIT BY THE FIRE</p>
+            <p>RELAX AND UNWIND</p>
+            <p>MAKE MEMORIES</p>
+            <p>DRINK A COLD ONE</p>
+        </section>
+    </main>
+</body>
+</html>

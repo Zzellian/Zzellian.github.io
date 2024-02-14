@@ -10,25 +10,38 @@
         body, html{
             margin: 0px;
             padding: 0px;
+
+            background-color: rgb(0, 0, 0);
+            height: 100%;
+        }
+
+        main {
+            width: 1024px;
+            height: 100%;
+            
+            margin: 0px auto;
+            background-color: aliceblue;
         }
 
         nav {
-            background-color: forestgreen;
+            background-color: rgb(204, 221, 223, .8);
             height: 50px;
             display: flex;
             align-items: center;
             position: fixed;
             width: 100%;
             font-family: 'Gill Sans', Gill Sans MT, 'Calibri', 'Trebuchet MS', sans-serif;
+            font-size: 20px;
         }    
 
         nav div a {
-            color: aquamarine;
+            color: rgb(7, 0, 46);
         }
 
         #nav-leftside {
             width: 75%;
             padding-left: 20px;
+            
         }
 
         #nav-rightside {
@@ -37,52 +50,65 @@
             padding-right: 20px;
         }
 
-        #words {
-            height: 400px;
-            background-color: rgb(235, 194, 141);
-            padding-top: 40px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: brown;
-            font-family: Franklin Gothic Medium, 'Arial Narrow', Arial, sans-serif;
-            font-size: 30px;
-        }
-
-        #words p {
-            background-color: rgb(110, 202, 175, .3);
-            padding: 25px;
-        }
-
-        #tent, #bags, #sleeping, #wear-sec, #bottle {
-            margin-top: 10px;
-            background-color: beige;
-            padding: 20px;
+        #header {
+            height: 900px;
             width: 100%;
-            height: 300px;
-        }
-        
-        .div-tent, .div-title, .wear-title {
-            padding: 10px;
-            height: 50px;
+            background-image: url(assets/image/camping.jpeg);
+            background-size: cover;
+            background-color: rgb(235, 194, 141);
             display: flex;
-            justify-content: space-around;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-family: Franklin Gothic Medium, sans-serif;
+            font-size: 43px;
         }
 
-        .bags-item, .sleeping-bags, .div-wear, .div-bottle {
+        #header p{        
+            height: 500px;
+            width: 1024px;
+            background-color: rgba(127, 136, 133, 0.3);
             display: flex;
-            height: 100%;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
+            border-radius: 100px;
+            margin: 47px auto 0px auto;
         }
+
+        #tent-sec, #bags-sec, #sleeping, #wear-sec, #bottle {
+            background-color: rgb(185, 224, 187);
+            width: 1024px;
+            height: 520px;
+        }
+   
+        .div-title, .wear-title, .bags-item {
+            padding: auto;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .div-tent, .sleeping-bags, .div-wear, .div-bottle {    
+            display: flex;
+            height: 120px;
+            width: 1024px;
+            align-items: center;
+            align-content: center;
+            justify-content: space-evenly;
+            background-color: aliceblue;
+        }
+
+
 
         #lower-material {
             background-color: darksalmon;
+            width: auto;
             display: flex;
             height: 300px;
             text-align: center;
+            align-content: center;
             justify-content: space-evenly;
-
+            align-content: center;
         }
 
         .category {
@@ -104,41 +130,40 @@
             <a href="">Account</a>
         </div>
     </nav>
+    
+    <header id="header">
+            <!-- camp cite photo the background image for this section -->
+            <!-- <p>Share the wonder of camp at were here to provide the needed equipments</p> -->
+    </header>
 
     <main>
-        <section id="words">
-            <!-- camp cite photo the background image for this section -->
-            <p>Without the intense touch of nature, you can never fully freshen yourself! 
-                <br>Go for a camping and there both your weary mind and your exhausted body will rise like a morning sun!</p>
-        </section>
-
-        <section id="tent">
-            <div class="div-tent">
+        <section id="tent-sec">
+            <div class="div-title">
                 <a href="">TENT</a>
             </div>
             <div class="div-tent">
-                <div>Dome Tent</div>
-                <div>A-Frame Tent</div>
-                <div>Multi-Room Tent</div>
+                <div class="dome">Dome Tent</div>
+                <div class="a-frame">A-Frame Tent</div>
+                <div class="multi">Multi-Room Tent</div>
             </div>
             <div class="div-tent">
-                <div>Backpacking Tent</div>
-                <div>Geodesic and Semi-Geodesic Tent</div>
-                <div>Pop-up Tent</div>
+                <div class="backpacking">Backpacking Tent</div>
+                <div class="geodesic">Geodesic and Semi-Geodesic Tent</div>
+                <div class="popup">Pop-up Tent</div>
             </div>
             <div class="div-tent">
-                <div>Tunnel Tent</div>
-                <div>Inflatable Tent</div>
-                <div>Teepee Tent</div>
+                <div class="tunnel">Tunnel Tent</div>
+                <div class="inflatable">Inflatable Tent</div>
+                <div class="teepee">Teepee Tent</div>
             </div>
         </section>
 
-        <section id="bags">
-            <div class="div-title">
-                <a href="">BACKPACK / RUCKSACK</a>
-            </div>
-
-            <div class="bags-item">
+        <section id="bags-sec">
+            <div class="bags-item"></div>
+                <div class="div-title">
+                    <a href="">BACKPACK / RUCKSACK</a>
+                </div>
+            
                 <div class="div-bags">
                     <a href="">Bags</a>
                 </div>
@@ -172,7 +197,7 @@
             </div>
         </section>
 
-        <section id="bottle">
+        <section id="bottle-sec">
                 <div class="div-bottle">
                     <a href="">BOTTLE</a>
                 
