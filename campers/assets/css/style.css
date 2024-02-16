@@ -8,19 +8,20 @@ body, html {
 
 nav {
     background-color: rgb(199, 228, 228);
-    height: 60px;
+    height: 55px;
     width: 100%;
     position: fixed;   
     display: flex;     
     align-items: center; 
-    margin-top: -80px;
+    margin-top: -60px;
     font-family: Congenial SemiBold, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+    justify-content: center;
 }
 
 #left-side, #right-side {
     background-size: cover;
-    height: 55px;    
+    height: 50px;    
 }
 
 #left-side {
@@ -38,21 +39,21 @@ nav {
 
 #left-side img {
     background-color: cadetblue;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     margin: 0px 2px 0px 5px;
     border-radius: 20% 20%;
 }
 
 #right-side a {
     background-color: cadetblue;
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    border-radius: 20% 20%;
+    border-radius: 15px;
     color: ivory;
     margin: 0px 5px;
 }
@@ -72,7 +73,7 @@ main {
     background-position: center;
     height: 600px;
     width: 1024;
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
 }
 
@@ -114,10 +115,17 @@ li, h5 {
 }
 
 #tent-sec {
+    margin-top: 20px;
     background-color: rgb(185, 224, 187);
     width: 1024px;
     height: 800px;
 } 
+#bags-sec, #sleeping-sec, #apparel-sec, #bottle-sec {
+    margin-top: 20px;
+    background-color: rgb(185, 224, 187);
+    width: 1024px;
+    height: 300px;
+}
 
 .div-title {
     padding: auto;
@@ -135,79 +143,92 @@ li, h5 {
     font-family: Congenial SemiBold, sans-serif;
 }
 
-.div-tent, .bags-item, .sleeping-bags, .div-apparel, .bootle-div {
+.div-tent, .bags-item, .sleeping-bags, .div-apparel, .bottle-div {
     background-color: ivory;
     width: 1024px;
     height: 250px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;text-align: center;
 }
 
 .tent, .div-bags, .div-clothes, .div-bottle {
     background-color: dimgrey;
     height: 200px;
     width: 200px;  
-    text-align: center;
+
     display: flex;
     flex-direction: column;
 }
 
-.tent p {
+.tent img, .div-bags img {
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+
+.tent p, .div-bags p {
     font-size: 20px;
+    padding: 3px;
+    margin: 0px;
+    color: black;
 }
 
+.tent a, .div-bags a {
+    text-decoration: none;
+}
 
-#bags-sec, #sleeping-sec, #apparel-sec, #bottle-sec {
-    background-color: rgb(185, 224, 187);
-    width: 1024px;
-    height: 300px;
-} 
-
-.apparel, .bootle-div {
+.apparel {
     flex-direction: column;
 }
-
-/*
-#bags-sec, #sleeping, #wear-sec, #bottle {
-    background-color: rgb(185, 224, 187);
-    width: 1024px;
-    height: 520px;
-}
-
-.div-title, .wear-title, .bags-item {
-    padding: auto;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.div-tent, .sleeping-bags, .div-wear, .div-bottle {    
-    display: flex;
-    height: 120px;
-    width: 1024px;
-    align-items: center;
-    align-content: center;
-    justify-content: space-evenly;
-    background-color: aliceblue;
-}
-
-
 
 #lower-material {
-    background-color: darksalmon;
-    width: auto;
+    background-color: ivory;
+    width: 1024px;
     display: flex;
-    height: 300px;
+    height: 310px;
     text-align: center;
-    align-content: center;
     justify-content: space-evenly;
-    align-content: center;
+    padding-top: 20px;
 }
 
 .category {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
+    padding: 5px;
+    text-align: center;
 }
+
+
+.category a {
+    background-color: rgb(150, 150, 150);
+    height: 30px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Congenial SemiBold, sans-serif;
+    color: ivory;
+}
+
+footer {
+    background-color:  rgb(199, 228, 228);
+    width: 1024px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer a {
+    margin: 2px 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
