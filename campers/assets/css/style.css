@@ -135,7 +135,7 @@ li, h5 {
     font-family: Congenial SemiBold, sans-serif;
 }
 
-.div-tent, .bags-item, .sleeping-bags, .div-apparel {
+.div-tent, .bags-item, .sleeping-bags, .div-apparel, .bootle-div {
     background-color: ivory;
     width: 1024px;
     height: 250px;
@@ -144,7 +144,7 @@ li, h5 {
     align-items: center;
 }
 
-.tent, .div-bags, .div-clothes {
+.tent, .div-bags, .div-clothes, .div-bottle {
     background-color: dimgrey;
     height: 200px;
     width: 200px;  
@@ -158,13 +158,13 @@ li, h5 {
 }
 
 
-#bags-sec, #sleeping-sec, #apparel-sec,  #bottle-sec {
+#bags-sec, #sleeping-sec, #apparel-sec, #bottle-sec {
     background-color: rgb(185, 224, 187);
     width: 1024px;
     height: 300px;
 } 
 
-.apparel {
+.apparel, .bootle-div {
     flex-direction: column;
 }
 
