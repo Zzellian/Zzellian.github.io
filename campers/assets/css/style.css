@@ -1,0 +1,213 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(77, 83, 83);
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgb(199, 228, 228);
+    height: 60px;
+    width: 100%;
+    position: fixed;   
+    display: flex;     
+    align-items: center; 
+    margin-top: -80px;
+    font-family: Congenial SemiBold, sans-serif;
+    font-size: 12px;
+}
+
+#left-side, #right-side {
+    background-size: cover;
+    height: 55px;    
+}
+
+#left-side {
+    width: 200px;
+    margin: 2px;
+}
+
+#right-side {
+    width: 1200px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#left-side img {
+    background-color: cadetblue;
+    height: 55px;
+    width: 55px;
+    margin: 0px 2px 0px 5px;
+    border-radius: 20% 20%;
+}
+
+#right-side a {
+    background-color: cadetblue;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20% 20%;
+    color: ivory;
+    margin: 0px 5px;
+}
+
+main {
+    background-color: azure;
+    height: 100%;
+    width: 1024px;
+    margin: auto;
+}
+
+#sign-sec {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../image/camp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 1024;
+    margin-top: 80px;
+    display: flex;
+}
+
+#sign {
+    
+    height: 550px;
+    width: 1024px;
+    margin: auto auto;
+    text-align: center; 
+}
+
+li, h5 {
+    list-style: none;
+    color: ivory;
+    font-family: Tempus Sans ITC, sans-serif;
+    font-size: 35px;
+}
+
+#about-sec {
+    height: 500px;
+    width: 1024;
+    background-color: azure;
+    display: flex;
+}
+
+.about-div {
+    text-align: justify;
+    margin:  10px;
+    padding: 40px;
+    border-style: groove;
+    border-radius: 20px;
+    align-content: center;
+}
+
+#about-sec h2, p {
+    
+    font-family: Congenial SemiBold, sans-serif;
+    font-size: 30px;
+}
+
+#tent-sec {
+    background-color: rgb(185, 224, 187);
+    width: 1024px;
+    height: 800px;
+} 
+
+.div-title {
+    padding: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.div-title a {
+    text-decoration: none;
+    border-radius: 20% 20%;
+    color: rgb(0, 60, 75);
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Congenial SemiBold, sans-serif;
+}
+
+.div-tent, .bags-item, .sleeping-bags, .div-apparel {
+    background-color: ivory;
+    width: 1024px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tent, .div-bags, .div-clothes {
+    background-color: dimgrey;
+    height: 200px;
+    width: 200px;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tent p {
+    font-size: 20px;
+}
+
+
+#bags-sec, #sleeping-sec, #apparel-sec,  #bottle-sec {
+    background-color: rgb(185, 224, 187);
+    width: 1024px;
+    height: 300px;
+} 
+
+.apparel {
+    flex-direction: column;
+}
+
+/*
+#bags-sec, #sleeping, #wear-sec, #bottle {
+    background-color: rgb(185, 224, 187);
+    width: 1024px;
+    height: 520px;
+}
+
+.div-title, .wear-title, .bags-item {
+    padding: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-tent, .sleeping-bags, .div-wear, .div-bottle {    
+    display: flex;
+    height: 120px;
+    width: 1024px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+
+
+#lower-material {
+    background-color: darksalmon;
+    width: auto;
+    display: flex;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.category {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

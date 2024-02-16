@@ -1,0 +1,109 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+main {
+    width: 1024px;
+    height: 100%;
+    
+    margin: 0px auto;
+    background-color: aliceblue;
+}
+
+nav {
+    background-color: rgb(204, 221, 223, .8);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    font-family: 'Gill Sans', Gill Sans MT, 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}    
+
+nav div a {
+    color: rgb(7, 0, 46);
+}
+
+#nav-leftside {
+    width: 75%;
+    padding-left: 20px;
+    
+}
+
+#nav-rightside {
+    width: 25%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#header {
+    height: 900px;
+    width: 100%;
+    background-image: url("../assets/image/camping.jpg");
+    background-size: cover;
+    background-color: rgb(235, 194, 141);
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Franklin Gothic Medium, sans-serif;
+    font-size: 43px;
+}
+
+#header p{        
+    height: 500px;
+    width: 1024px;
+    background-color: rgba(127, 136, 133, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 47px auto 0px auto;
+}
+
+#tent-sec, #bags-sec, #sleeping, #wear-sec, #bottle {
+    background-color: rgb(185, 224, 187);
+    width: 1024px;
+    height: 520px;
+}
+
+.div-title, .wear-title, .bags-item {
+    padding: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-tent, .sleeping-bags, .div-wear, .div-bottle {    
+    display: flex;
+    height: 120px;
+    width: 1024px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+
+
+#lower-material {
+    background-color: darksalmon;
+    width: auto;
+    display: flex;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.category {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

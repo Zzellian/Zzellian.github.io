@@ -4,103 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campers Site</title>
-    <style>
-        body, html {
-            margin: 0px;
-            padding: 0px;
-            background-color: darkgray;
-            height: 100%;
-        }
 
-        nav {
-            background-color: rgb(199, 228, 228);
-            height: 80px;
-            width: 100%;
-            position: fixed;   
-            display: flex;     
-            align-items: center; 
-            margin-top: -90px;
-        }
-
-        #left-side, #right-side {
-            background-color: rgb(210, 255, 255);
-            background-size: cover;
-            height: 70px;
-            border-radius: 10%;
-            
-        }
-
-        #left-side {
-            width: 20%;
-        }
-
-        #right-side {
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            
-        }
-
-        #left-side a img {
-            height: 60px;
-            width: 60px;
-            margin: 5px 5px 5px 10px;
-        }
-
-        #right-side a {
-            background-color: cadetblue;
-            height: 50px;
-            width: 180px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 20% 20%;
-            color: ivory;
-        }
-        
-        main {
-            background-color: azure;
-            height: 100%;
-            width: 1024px;
-            margin: auto;
-        }
-
-        section {
-            background-color: blanchedalmond;
-            background-image: url(assets/image/camp.jpg);
-            background-size: 100%;
-            height: 300px;
-            width: 1024px;
-            margin-top: 90px;
-        }
-  
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
     <nav>
         <div id="left-side">
-            <a href="">
-                <img src="assets/image/logo.png" alt="logo">
-            </a>
+                <img src="assets/image/logo.png" alt="Logo">
         </div>
         <div id="right-side">
-            <a href="">ABOUT</a>
-            <a href="">PRODUCTS</a>
+            <a href="#sign-sec">HOME</a>
+            <a href="#about-sec">ABOUT US</a>
+            <a href="#tent-sec">PRODUCTS</a>
             <a href="">CONTACT US</a>
         </div>
     </nav>
     
     <main>
-        <section>
-            <h4>CAMPING RULES</h4>
-            <p>NAP OFTEN</p>
-            <p>WATCH THE SUNSET</p>
-            <p>WAKE UP SMILING</p>
-            <p>SIT BY THE FIRE</p>
-            <p>RELAX AND UNWIND</p>
-            <p>MAKE MEMORIES</p>
-            <p>DRINK A COLD ONE</p>
+        <section id="sign-sec">
+            <div id="sign">
+                <h5>The Moment You Will Do In Camping</h5>
+                <ul>
+                    <li>Nap Often</li>
+                    <li>Watch The Sunset</li>
+                    <li>Wake Up Smiling</li>
+                    <li>Sit By The Fire</li>
+                    <li>Relax And Unwind</li>
+                    <li>Make Memories</li>
+                    <li>Drink A Cold One</li>
+                </ul>
+            </div>
+        </section>
+        <section id="about-sec">
+            <div class="about-div">
+                <h2>ABOUT US</h2>
+                <p>No matter where the world you live, you’re bound to 
+                    find some gorgeous scenery nearby that’s just 
+                    waiting to be explored! If you want to make the 
+                    most of your local environment with some of the 
+                    best high-quality camping and outdoor goods sold 
+                    , then you simply can’t overlook these 
+                    store! And, with camping store by your 
+                    side, you won’t have to worry about shopping these 
+                    : We’ll get your purchases safely to your doorstep 
+                    so that you can hike in style no matter where you live!</p>
+                </div>
+        </section>
+        <section id="tent-sec">
+            <div class="div-title">
+                <a href="">TENT</a>
+            </div>
+            <div class="div-tent">
+                <div class="tent">
+                    <img src="" alt="Dome Tent">
+                    <p>Dome Tent</p>
+                </div>
+                <div class="tent">
+                    <img src="" alt="A-Frame Tent">
+                    <p>A-Frame Tent</p>
+                </div>
+                <div class="tent">
+                    <img src="" alt="Multi-Room Tent">
+                    <p>Multi-Room Tent</p>
+                </div>
+            </div>
+            <div class="div-tent">
+                <div class="tent">
+                    <img src="" alt="Backpacking Tent">
+                    <p>Backpacking Tent</p>
+                </div>
+                <div class="tent">
+                    <img src="" alt="Geodesic and Semi-Geodesic Tent">
+                    <p>Geodesic and Semi-Geodesic Tent</p>
+                </div>
+                <div class="tent">
+                    <img src="" alt="Pop-up Tent">
+                    <p>Pop-up Tent</p>
+                </div>
+            </div>
+            <div class="div-tent">
+                <div class="tent">
+                    <img src="" alt="Tunnel Tent">
+                    <p>Tunnel Tent</p>
+                </div>
+                <div class="tent">
+                    <img src="" alt="Inflatable Tent">
+                    <p>Inflatable Tent</p>
+                </div>
+                <div class="tent">
+                    <img src="" alt="Teepee Tent">
+                    <p>Teep
+                </div>
+            </div>
+        </section>                                      
+
+        <section id="bags-sec">
+            <div class="div-title">
+                <a href="">BACKPACK / RUCKSACK</a>
+            </div>
+            <div class="bags-item">
+                <div class="div-bags">
+                    <img src="" alt="Bags">
+                    <a href="">Bags</a>
+                </div>
+                <div class="div-bags">
+                    <img src="" alt="Bags">
+                    <a href="">Bags</a>
+                </div>
+                <div class="div-bags">
+                    <img src="" alt="Bags">
+                    <a href="">Bags</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sleeping-sec">
+            <div class="sleeping-bags">
+                <div class="div-bags">
+                    <img src="" alt="Sleeping Bag">
+                    <a href="">Sleeping Bag</a>
+                </div>
+                <div class="div-bags">
+                    <img src="" alt="Sleeping Pad">
+                    <a href="">Sleeping Pad</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="apparel-sec">
+            <div class="apparel">
+                <div class="div-title">
+                    <a href="">APPAREL</a>
+                </div>
+                <div class="div-apparel">
+                    <div class="div-clothes">
+                        <img src="" alt="Clothes">
+                        <a href="">Clothes</a>
+                    </div>
+                    <div class="div-clothes">
+                        <img src="" alt="Footwear">
+                        <a href="">Footwear</a>
+                    </div>
+                    <div class="div-clothes">
+                        <img src="" alt="Sungglasses">
+                        <a href="">Sungglasses</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bottle-sec">
+                <div class="bottle-div">
+                    <div class="div-bottle">
+                        <img src="" alt="Clothes">
+                        <a href="">BOTTLE</a>
+                
+                    <a href="">MUGS</a>
+                
+                    <a href="">CUPS</a>
+                </div>
+        </section>
+
+        <section id="lower-material">
+            
+            <div class="category">
+                <a href="">FURNITURE</a>
+                <a href="">Camping Table</a>
+                <a href="">Camping Chairs</a>
+                <a href="">Storage Stands</a>
+                <a href="">Hammock</a>
+            </div>
+
+            <div class="category">
+                <a href="">KITCHENWARE</a>
+                <a href="">Stove</a>
+                <a href="">Cookware</a>
+                <a href="">Utensils</a>
+                <a href="">Kettle</a>
+                <a href="">Container</a>
+                <a href="">Coolbox</a>
+            </div>
+
+            <div class="category">
+                <a href="">EQUIPMENTS</a>
+                <a href="">Flaslights</a>
+                <a href="">Lanterns</a>
+                <a href="">First Aid Kit</a>
+                <a href="">Bottle Opener</a>
+            </div>
+
+            <div class="category">
+                <a href="">REPAIR KIT / TOOL KIT</a>
+                <a href="">Multi-Tool / Knife</a>
+                <a href="">P-Cord</a>
+                <a href="">Hooks</a>
+                <a href="">Webbing Straps</a>
+                <a href="">Duct Tape</a>
+                <a href="">Side-Release Buckles</a>
+                <a href="">Zip Ties</a>
+                <a href="">Batteries</a>
+                <a href="">Stove Repair Kit</a>
+            </div>
         </section>
     </main>
 </body>
